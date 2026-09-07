@@ -19,7 +19,22 @@ public class Main {
         System.out.println("Ingrese su curso:");
         String curso = sc.nextLine();
 
+        Estudiante EstudianteNew = new Estudiante(nombre, edad, curso);
 
+        System.out.println("Registre el Libro Escogido");
+        System.out.println("Ingrese su Titular:");
+        String titulo = sc.nextLine();
+
+        System.out.println("Ingrese su Autor:");
+        String autor = sc.nextLine();
+
+        System.out.println("Ingrese su Numero de Paginas:");
+        int NumerodePaginas = sc.nextInt();
+
+        System.out.println("Ingrese su Fecha de Publicacion:");
+        String fechaPublicacion = sc.nextLine();
+
+        Libro libroN = new Libro(titulo, autor, NumerodePaginas, fechaPublicacion);
 
 
 
