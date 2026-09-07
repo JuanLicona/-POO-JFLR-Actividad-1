@@ -36,7 +36,17 @@ public class Main {
 
         Libro libroN = new Libro(titulo, autor, NumerodePaginas, fechaPublicacion);
 
+        System.out.println("Registro de Cuenta Bancaria para Pago");
+        System.out.println("Ingrese su Numero de Cuenta Bancaria:");
+        Double NumeroCuenta = sc.nextDouble();
 
+        System.out.println("Ingrese su Saldo:");
+        Double saldo = sc.nextDouble();
+
+        System.out.println("Ingrese su Tipo de Cuenta Bancaria:");
+        String TipoBancaria = sc.nextLine();
+
+        CuentaBancaria CuentaBancariaN = new CuentaBancaria( );
 
     }
 }
